@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1260px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* li,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+} */
+
+p {
+  font-size: 1.6em;
+}
+
+svg {
+  width: 100%;
+}
+
+/* Header */
+
+header {
+  background-color: #e8f5e2;
+  border-bottom: 1px solid black;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.logo {
+  display: flex;
+  gap: 5px;
+}
+
+.logo p {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.8em;
+  padding: 0 20px;
+  color: black;
+}
+
+nav .active {
+  position: relative;
+}
+
+nav .active:before {
+  /* text-decoration: underline 2px;
+  text-underline-offset: 0.3em; */
+  /* border-bottom: 2px solid black; */
+  position: absolute;
+  left: 1.1em;
+  top: 1.3em;
+  height: 0;
+  width: 26px;
+  content: "";
+  border-top: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a button {
+  background-color: #c6dbbd;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: 1.8em;
+  border: 1px solid black;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 0.3em;
+}
+
+a button img {
+  height: 15px;
+  text-decoration: none;
+}
+
+/* Section Title */
+
+.title {
+  background-color: #e8f5e2;
+}
+
+.title .wrapper {
+  display: flex;
+  /* width: 100%; */
+}
+
+.left-title {
+  width: 53%;
+  border-right: 1px solid black;
+}
+
+.right-title button img {
+  height: 15px;
+  text-decoration: none;
+}
+
+.right-title button {
+  background-color: #c6dbbd;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: 1.8em;
+  border: 1px solid black;
+  font-weight: bold;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 0.3em;
+}

@@ -5,54 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Couply</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="./images/logo.svg" alt="logo" />
-        <p>Couply</p>
+      <div class="wrapper">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+          <p>Couply</p>
+        </div>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Coupons</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact</a>
+        </nav>
+        <a href="#">
+          <button>
+            Start saving
+            <img src="./images/down-arrow.svg" alt="down-arrow" />
+          </button>
+        </a>
       </div>
-      <nav>
-        <a href="#" class="active">Home</a>
-        <a href="#">Coupons</a>
-        <a href="#">FAQ</a>
-        <a href="#">Contact</a>
-      </nav>
-      <a href="#">
-        <button>Start saving ↓</button>
-      </a>
     </header>
 
     <section class="title">
-      <div class="left-title">
-        <h1>Shopping with coupons, applied automatically!</h1>
-        <div class="people">
-          <p>used by over 500,000 peeps</p>
-          <img src="./images/people.svg" alt="people" />
-        </div>
-        <div class="quote">
-          <img src="./images/person.svg" alt="person" />
-          <div class="qoute-text">
-            <p>Holy Sh*t, I saved $500!</p>
-            <p class="name">Janey Doe</p>
+      <div class="wrapper">
+        <div class="left-title">
+          <h1>Shopping with coupons, applied automatically!</h1>
+          <div class="people">
+            <p>used by over 500,000 peeps</p>
+            <img src="./images/people.svg" alt="people" />
+          </div>
+          <div class="quote">
+            <img src="./images/person.svg" alt="person" />
+            <div class="qoute-text">
+              <p>Holy Sh*t, I saved $500!</p>
+              <p class="name">Janey Doe</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="right-title">
-        <ul class="step-list">
-          <li class="step">
-            <p class="number">1</p>
-            <p>Download the Extension for Chrome or Firefox.</p>
-          </li>
-          <li class="step">
-            <p class="number">2</p>
-            <p>Visit your favorite online retailers.</p>
-          </li>
-          <li class="step">
-            <p class="number">3</p>
-            <p><span>Save! </span>Apply coupons from the toolbar.</p>
-          </li>
-        </ul>
+        <div class="right-title">
+          <ul class="step-list">
+            <li class="step">
+              <p class="number">1</p>
+              <p>Download the Extension for Chrome or Firefox.</p>
+            </li>
+            <li class="step">
+              <p class="number">2</p>
+              <p>Visit your favorite online retailers.</p>
+            </li>
+            <li class="step">
+              <p class="number">3</p>
+              <p><span>Save! </span>Apply coupons from the toolbar.</p>
+            </li>
+          </ul>
+          <button>
+            Easy Installation
+            <img src="./images/down-arrow.svg" alt="down-arrow" />
+          </button>
+        </div>
       </div>
     </section>
 
@@ -74,5 +92,77 @@
         <a href="#">View all brands</a>
       </div>
     </section>
+
+    <section class="gallery">
+      <div class="gallery-content">
+        <div class="image">
+          <img src="./images/shoes1.jpg" alt="Shoes" />
+          <p class="image-title">Women's Nike Shoes</p>
+          <p class="price">$69</p>
+        </div>
+        <div class="image">
+          <img src="./images/darts.jpg" alt="darts" />
+          <p class="image-title">Quiky Arrows</p>
+          <p class="price">$14</p>
+        </div>
+        <div class="image">
+          <img src="./images/headphones.jpg" alt="headphones" />
+          <p class="image-title">Headphones</p>
+          <p class="price">$99</p>
+        </div>
+        <div class="image">
+          <img src="./images/shoes2.jpg" alt="Shoes" />
+          <p class="image-title">Women's High Heels</p>
+          <p class="price">$99</p>
+        </div>
+        <div class="image">
+          <img src="./images/glasses.jpg" alt="glasses" />
+          <p class="image-title">Cool Shades</p>
+          <p class="price">$10</p>
+        </div>
+        <div class="image">
+          <img src="./images/jars.jpg" alt="Jars" />
+          <p class="image-title">Jars</p>
+          <p class="price">$20</p>
+        </div>
+        <div class="see-more">
+          <img src="./images/eye2.svg" alt="eye" />
+          <a href="#">View all offers</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-left">
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo" />
+          <p>Couply</p>
+        </div>
+        <div class="socials">
+          <ul>
+            <li>
+              <img src="./images/twitter.svg" alt="twitter-logo" />
+            </li>
+            <li>
+              <img src="./images/facebook.svg" alt="facebook logo" />
+            </li>
+            <li>
+              <img src="./images/spotify.svg" alt="spotify logo" />
+            </li>
+          </ul>
+          <p>contact@couply.com</p>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Coupons</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact</a>
+        </nav>
+        <p>copyright 2022-2023 @ Couply LLC</p>
+      </div>
+    </footer>
   </body>
 </html>
